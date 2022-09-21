@@ -38,7 +38,7 @@ header{
 }
 
 .left-side ul li{
-   margin: 0 5px 0 0;
+   margin: 0 15px 0 0;
 }
 
  a{
@@ -73,6 +73,7 @@ main{
 }
 
       /* START MAIN */
+
 .square-red{
     background-color: red;
 }
@@ -112,6 +113,10 @@ main{
     margin-top: 100px;
     flex-basis: 32%;
     position: relative;
+}
+
+.block i:hover{
+    color: red;
 }
 
 .item-info{
