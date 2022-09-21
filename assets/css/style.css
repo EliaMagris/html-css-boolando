@@ -25,7 +25,7 @@ header{
 }
 
 .small{
-    flex-basis: 20%;
+    flex-basis: 29%;
     color: white;
 }
 
@@ -38,18 +38,22 @@ header{
 }
 
 .left-side ul li{
-   margin: 0 5px;
+   margin: 0 5px 0 0;
 }
 
- li a{
+ a{
     text-decoration: none;
     color: white;   
 }
 
- /* li a:hover a:active{
+ a:hover{
     text-decoration: underline;
     color: white;
-} */
+}
+
+main{
+    margin-bottom: 65px;
+}
 
 .center-side{
     text-align: center;
@@ -86,6 +90,18 @@ header{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.img-2{
+    display: none;
+}
+
+.relaxed-fit-layout:hover .img-1{
+    display: none;
+}
+
+.relaxed-fit-layout:hover .img-2{
+    display: block;
 }
 
 .image-settings{
@@ -130,4 +146,24 @@ header{
 .old-price span{
     text-decoration: line-through;
     color: black;
+}
+
+/* FINE MAIN */
+
+footer{
+    background-color: rgb(26,26,26);
+}
+
+.bottom-section li{
+    padding: 20px 20px 0 0;
+    font-size: 13px;
+}
+
+.bottom-part{
+    padding: 20px 0;
+}
+
+.Social i{
+    padding: 20px 0 0;
+    font-size: 20px;
 }
